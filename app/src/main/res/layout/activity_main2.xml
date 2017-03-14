@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.example.aderama.gametebakan.Main2Activity">
+
+    <ImageView
+        android:id="@+id/imagechance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxHeight="120dp"
+        android:maxWidth="120dp"
+        android:minHeight="120dp"
+        android:minWidth="120dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Kategori" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Kata Disembunyikan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/q"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/w"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/e"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/r"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/t"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/y"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/u"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/i"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/o"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/p"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="P" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/s"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/d"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/f"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/g"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/h"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="H" />
+
+        <Button
+            android:id="@+id/j"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/k"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/l"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="L" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/z"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="Z" />
+
+        <Button
+            android:id="@+id/x"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/c"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/v"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/n"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="N" />
+
+        <Button
+            android:id="@+id/m"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="M" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Del" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+</LinearLayout>
